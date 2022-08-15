@@ -49,7 +49,7 @@
 		E63A48E328AAD43100BA367D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63A48E728AAD43100BA367D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E63A48E928AAD43100BA367D /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		E63A490628AADBD500BA367D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E63A490728AADC8D00BA367D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		E63A48BD28AAD42E00BA367D = {
 			isa = PBXGroup;
 			children = (
-				E63A490628AADBD500BA367D /* .gitignore */,
+				E63A490728AADC8D00BA367D /* .gitignore */,
 				E63A48C228AAD42E00BA367D /* Shared */,
 				E63A48D128AAD43100BA367D /* macOS */,
 				E63A48DA28AAD43100BA367D /* Tests iOS */,
