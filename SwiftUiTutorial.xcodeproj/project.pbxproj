@@ -17,10 +17,6 @@
 		E63A48EE28AAD43100BA367D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A48C428AAD42E00BA367D /* ContentView.swift */; };
 		E63A48EF28AAD43100BA367D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63A48C528AAD43100BA367D /* Assets.xcassets */; };
 		E63A48F028AAD43100BA367D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63A48C528AAD43100BA367D /* Assets.xcassets */; };
-		E63A490228AAD99E00BA367D /* .gitingore in Resources */ = {isa = PBXBuildFile; fileRef = E63A490128AAD99E00BA367D /* .gitingore */; };
-		E63A490328AADAD700BA367D /* .gitingore in Resources */ = {isa = PBXBuildFile; fileRef = E63A490128AAD99E00BA367D /* .gitingore */; };
-		E63A490428AADAD700BA367D /* .gitingore in Resources */ = {isa = PBXBuildFile; fileRef = E63A490128AAD99E00BA367D /* .gitingore */; };
-		E63A490528AADAD800BA367D /* .gitingore in Resources */ = {isa = PBXBuildFile; fileRef = E63A490128AAD99E00BA367D /* .gitingore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +49,7 @@
 		E63A48E328AAD43100BA367D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63A48E728AAD43100BA367D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E63A48E928AAD43100BA367D /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		E63A490128AAD99E00BA367D /* .gitingore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitingore; sourceTree = "<group>"; };
+		E63A490628AADBD500BA367D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +87,7 @@
 		E63A48BD28AAD42E00BA367D = {
 			isa = PBXGroup;
 			children = (
-				E63A490128AAD99E00BA367D /* .gitingore */,
+				E63A490628AADBD500BA367D /* .gitignore */,
 				E63A48C228AAD42E00BA367D /* Shared */,
 				E63A48D128AAD43100BA367D /* macOS */,
 				E63A48DA28AAD43100BA367D /* Tests iOS */,
@@ -272,7 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E63A490228AAD99E00BA367D /* .gitingore in Resources */,
 				E63A48EF28AAD43100BA367D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +276,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E63A490328AADAD700BA367D /* .gitingore in Resources */,
 				E63A48F028AAD43100BA367D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +284,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E63A490428AADAD700BA367D /* .gitingore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +291,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E63A490528AADAD800BA367D /* .gitingore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
